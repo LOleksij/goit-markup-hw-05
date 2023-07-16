@@ -767,7 +767,7 @@ button {
   border-color: #4d5ae5;
 }
 .modal-form-agreement {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   margin-bottom: 24px;
   gap: 8px;
@@ -778,8 +778,11 @@ button {
 }
 .modal-form-checkbox {
 }
-.modal-form-custom-checkbox {
+.modal-form-checkbox-container {
   display: inline-flex;
+}
+.modal-form-custom-checkbox {
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 16px;
