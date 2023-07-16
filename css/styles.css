@@ -768,21 +768,20 @@ button {
 }
 .modal-form-agreement {
   margin-bottom: 24px;
-  gap: 8px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 .modal-form-checkbox {
+}
+.modal-form-checkbox-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.modal-form-checkbox-container {
-}
 .modal-form-custom-checkbox {
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
