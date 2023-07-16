@@ -767,7 +767,7 @@ button {
   border-color: #4d5ae5;
 }
 .modal-form-agreement {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   margin-bottom: 24px;
   gap: 8px;
@@ -779,7 +779,6 @@ button {
 .modal-form-checkbox {
 }
 .modal-form-checkbox-container {
-  display: inline-flex;
 }
 .modal-form-custom-checkbox {
   display: flex;
@@ -813,10 +812,10 @@ button {
   opacity: 1;
   transform: scale(1);
 }
-.modal-form-checkbox-icon {
+/* .modal-form-checkbox-icon {
   opacity: 0;
   transform: scale(0);
-}
+} */
 .modal-form-agreement-desc {
   color: #8e8f99;
   font-family: Roboto;
