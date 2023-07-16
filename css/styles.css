@@ -777,7 +777,7 @@ button {
 .modal-form-checkbox {
 }
 .modal-form-checkbox-container {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
