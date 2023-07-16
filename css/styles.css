@@ -684,6 +684,9 @@ button {
 }
 .modal-form {
 }
+.modal-form-one {
+  margin-bottom: 8px;
+}
 .modal-form-field {
   display: block;
   margin-bottom: 8px;
