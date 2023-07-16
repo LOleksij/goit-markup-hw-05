@@ -783,11 +783,11 @@ button {
 }
 .modal-form-custom-checkbox {
   display: inline-block;
-  margin-right: 8px;
   align-items: center;
   justify-content: center;
   width: 16px;
   height: 16px;
+  margin-right: 8px;
   border-radius: 2px;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
