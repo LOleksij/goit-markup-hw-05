@@ -791,6 +791,12 @@ button {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
 }
+.imput[type="checkbox"]:checked + .modal-form-agreement {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
   border-color: #4d5ae5;
   background-color: #4d5ae5;
@@ -800,9 +806,6 @@ button {
   > .modal-form-checkbox-icon {
   opacity: 1;
   transform: scale(1);
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
 }
 .modal-form-checkbox-icon {
   opacity: 0;
@@ -818,7 +821,7 @@ button {
   letter-spacing: 0.48px;
 }
 .modal-form-link {
-  color: var(--logo-color);
+  color: #4d5ae5;
   text-decoration: underline;
 }
 .hero-btn-modal {
