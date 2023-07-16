@@ -799,11 +799,13 @@ button {
   color: var(--page-color);
 }
 .subscribe-form {
-}
-.subscribe-form-label {
   display: flex;
   gap: 24px;
 }
+/* .subscribe-form-label {
+  display: flex;
+  gap: 24px;
+} */
 .subscribe-form-input {
   width: 264px;
   height: 40px;
