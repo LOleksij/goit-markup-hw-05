@@ -685,10 +685,13 @@ button {
 .modal-form {
 }
 .modal-form-one {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-tu {
   position: relative;
+}
+.modal-form-checkbox-container {
+  margin-bottom: 24px;
 }
 .modal-form-field {
   display: block;
@@ -765,6 +768,10 @@ button {
   align-items: center;
   margin-bottom: 24px;
   gap: 8px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 .modal-form-checkbox {
 }
