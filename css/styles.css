@@ -779,7 +779,7 @@ button {
 .modal-form-checkbox {
 }
 .modal-form-custom-checkbox {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -802,6 +802,7 @@ button {
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
   border-color: #4d5ae5;
   background-color: #4d5ae5;
+  fill: #f4f4fd;
 }
 .modal-form-checkbox:checked
   + .modal-form-custom-checkbox
