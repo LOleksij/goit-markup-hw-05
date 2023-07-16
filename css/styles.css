@@ -690,6 +690,9 @@ button {
 .modal-form-tu {
   position: relative;
 }
+.modal-form-free {
+  margin-bottom: 16px;
+}
 .modal-form-checkbox-container {
   margin-bottom: 24px;
 }
