@@ -775,11 +775,11 @@ button {
   color: #8e8f99;
 }
 .modal-form-checkbox {
-}
-.modal-form-checkbox-container {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.modal-form-checkbox-container {
 }
 .modal-form-custom-checkbox {
   display: inline-block;
