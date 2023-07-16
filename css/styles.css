@@ -687,6 +687,9 @@ button {
 .modal-form-one {
   margin-bottom: 8px;
 }
+.modal-form-tu {
+  position: relative;
+}
 .modal-form-field {
   display: block;
   margin-bottom: 4px;
