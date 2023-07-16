@@ -782,6 +782,7 @@ button {
   justify-content: center;
 }
 .modal-form-custom-checkbox {
+  display: inline-block;
   margin-right: 8px;
   align-items: center;
   justify-content: center;
@@ -802,6 +803,7 @@ button {
   fill: #f4f4fd;
 }
 .modal-form-checkbox-icon {
+  margin-left: 3px;
 }
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
   border-color: #4d5ae5;
