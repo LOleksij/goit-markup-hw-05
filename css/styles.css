@@ -629,7 +629,7 @@ button {
   pointer-events: none;
 }
 .modal {
-  padding: 0 24px 24px 24px;
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
