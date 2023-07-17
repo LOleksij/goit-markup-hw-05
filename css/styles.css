@@ -499,7 +499,8 @@ button {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -548,7 +549,8 @@ button {
   background-color: #4d5ae5;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:hover .overlay-label {
+.portfolio-link:hover,
+.portfolio-link:focus .overlay-label {
   transform: translateY(0);
 }
 .overlay-label .active {
@@ -629,7 +631,7 @@ button {
   pointer-events: none;
 }
 .modal {
-  padding: 72px 24px 24px 24px;
+  padding: 0 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -674,7 +676,6 @@ button {
   display: block;
   margin-bottom: 16px;
   padding-top: 72px;
-  width: 360px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -699,7 +700,7 @@ button {
 .modal-form-field {
   display: block;
   margin-bottom: 4px;
-  position: relative;
+
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -719,6 +720,8 @@ button {
   height: 40px;
   padding: 8px 38px;
   font-size: 18px;
+  color: rgba(46, 47, 66, 0.4);
+  color: var(--navyblue, #2e2f42);
   outline: transparent;
   border-radius: 4px;
   background-color: transparent;
@@ -741,10 +744,9 @@ button {
   fill: #4d5ae5;
 }
 .modal-form-comment {
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
@@ -752,6 +754,7 @@ button {
   padding: 8px 16px;
   resize: none;
   outline: transparent;
+  color: var(--navyblue, #2e2f42);
   border-radius: 4px;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
 }
@@ -767,7 +770,6 @@ button {
   border-color: #4d5ae5;
 }
 .modal-form-agreement {
-  margin-bottom: 24px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -778,7 +780,6 @@ button {
 .modal-form-checkbox-container {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .modal-form-custom-checkbox {
   display: inline-flex;
@@ -802,7 +803,6 @@ button {
   fill: #f4f4fd;
 }
 .modal-form-checkbox-icon {
-  margin-left: 3px;
 }
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
   border-color: #4d5ae5;
@@ -815,10 +815,6 @@ button {
   opacity: 1;
   transform: scale(1);
 }
-/* .modal-form-checkbox-icon {
-  opacity: 0;
-  transform: scale(0);
-} */
 .modal-form-agreement-desc {
   color: #8e8f99;
   font-family: Roboto;
@@ -833,12 +829,26 @@ button {
   text-decoration: underline;
 }
 .hero-btn-modal {
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-btn-modal {
   display: block;
   margin-left: 96px;
 }
 /* Footer-subscribe */
 .footer-subscribe {
-  padding-left: 80px;
+  margin-left: 80px;
 }
 .footer-subscribe-list {
   margin-bottom: 16px;
@@ -899,5 +909,4 @@ button {
   gap: 16px;
 }
 .footer-btn-icon {
-  margin-left: 16px;
 }
